@@ -16,6 +16,7 @@ const Form = props => {
             <Icon as={SearchIcon} size="sm"/>
             </InputIcon>
             <InputField
+            // you should type onChange here
              onChangeText={value => {
                 onInputChange(value)
             }}
